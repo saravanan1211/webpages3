@@ -1,0 +1,429 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    width: 100%;
+    height: 100px;
+    background-color: aqua;
+}
+.container{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navbar{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    background-color: blue;
+    justify-content: center;
+    align-items: center;
+}
+.logo{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo img{
+    width: 10%;
+    margin-right: 80%;    
+}
+.navlinks{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 30px;
+    color: white;
+    text-transform: capitalize;
+    font-size: large;
+    font-weight: 500;
+    
+}
+.navlinks li{
+    list-style-type: none;
+}
+.navlinks li a{
+    text-decoration: none;
+    padding: 0px 20px;
+}
+.maincontainer{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+     justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    
+}
+.card{
+        position: absolute;
+        width: 380px;
+        height: 380px;
+        transform-style:preserve-3d;
+        transition: all 0.5s ease-in-out;
+        border-radius: 20px;
+        top: 100px;
+        margin-right: 60%;
+        right: 140px;
+        
+    }
+   
+    .card:hover{
+        transform: rotateY(180deg);
+    }
+    .frontcard img{
+        width: 380px;
+        height: 380px;
+        
+    }
+    .frontcard{
+        position:absolute;
+        width: 100%;
+        height: 100%;
+        backface-visibility: hidden;
+    }
+    .cardback{
+        position:absolute;
+        width: 100%;
+        height: 100%;
+        backface-visibility: hidden;
+        background-color: rgb(158, 98, 214);
+        transform: rotateY(180deg);
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       flex-direction: column;
+    }
+    .cardback h1{
+        font-size: 35px;
+        color: aliceblue;
+    }
+    .cardback p{
+        color: aliceblue;
+        font-size: 30px;
+    }
+    .card-2{
+        position: absolute;
+        width: 380px;
+        height: 380px;
+        transform-style: preserve-3d;
+        transition: all 0.5s ease-in-out;
+        border-radius: 20px;
+        left: 420px;
+        top: 100px;
+        
+    }
+    .card-2:hover{
+        transform: rotateY(180deg);
+    }
+    .card-3{
+        position: absolute;
+        width: 380px;
+        height: 380px;
+        transform-style: preserve-3d;
+        transition: all 0.5s ease-in-out;
+        border-radius: 20px;
+        left: 850px;
+        top: 100px;
+        
+    }
+    .card-3:hover{
+        transform: rotateY(180deg);
+    }
+   .web p{
+    position:absolute;
+    margin-top:40%;
+    margin-left:-50%;
+
+   }
+   .content p{
+    margin-left: 10px;
+   }
+   .container1{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.navbar1{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    background-color: cornflowerblue;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1300px;
+    padding: 5%;
+
+
+}
+.navmedia{
+    width: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: capitalize;
+    color: white;
+    margin-bottom:80px;
+    
+    
+}
+.navmedia li{
+    list-style-type: none;
+}
+.navmedia li a{
+    text-decoration: none;
+    padding: 0px 20px;
+    color: black;
+}
+.con{
+   width: 100%;
+   height: 100px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+   color:white;
+   margin-top:550px;
+   text-transform: capitalize;
+
+   
+}
+.con li{
+    list-style-type: none;
+}
+.con li a{
+    text-decoration: none;
+    padding: 0px 20px;  
+}
+.team{
+    position: absolute;
+    margin-top: 90px;
+
+}
+
+
+    
+
+
+   
+
+    
+
+   
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+       
